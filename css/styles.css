@@ -686,7 +686,7 @@ nav.fixed-top{
 	background: transparent;
 	padding: 3rem 1rem 2rem 1rem;
 	border: 0.2rem solid #fff;
-	border-radius: 2rem;
+	border-radius: 1rem;
 }
 
 .header .form-container .form-control-input{
