@@ -94,7 +94,7 @@ h6 {
 }
 
 .col-lg-12 p.p-large{
-	color: grey;
+	color: #000;
 }
 
 .p-small {
@@ -169,20 +169,20 @@ a.white:hover {
 	padding: 1.375rem 2.25rem 1.375rem 2.25rem;
 	border: none;
 	border-radius: 32px;
-	background: rgb(91, 0, 91);
-	color: #ffffff;
+	background: rgb(55, 167, 204);
+	color: #fff;
 	font-weight: 600;
 	font-size: 0.875rem;
 	line-height: 0;
 	text-decoration: none;
 	transition: background 650ms ease-in;
-	box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.800);
+	
 }
 
 .btn-solid-reg:hover {
-	border: 1px solid rgb(91, 0, 91);
+	border: 1px solid #fff;
 	background: transparent;
-	color: rgb(91, 0, 91); /* needs to stay here because of the forced color property of a tag */
+	color: #fff; /* needs to stay here because of the forced color property of a tag */
 	text-decoration: none;
 }
 
@@ -191,7 +191,7 @@ a.white:hover {
 	padding: 1.625rem 2.625rem 1.625rem 2.625rem;
 	border: 1px solid purple;
 	border-radius: 32px;
-	background: linear-gradient(45deg, rgb(135, 1, 1), rgb(1, 1, 135));
+	background: linear-gradient(45deg, rgb(55, 167, 204), rgb(243, 112, 134));
 	color: #ffffff;
 	font-weight: 600;
 	font-size: 0.875rem;
@@ -212,7 +212,7 @@ a.white:hover {
 	padding: 1.375rem 2.25rem 1.375rem 2.25rem;
 	border-radius: 1rem;
 	border: none;
-	background: rgb(91, 0, 91);
+	background: rgb(243, 112, 134);
 	color: #fff;
 	font-weight: 600;
 	font-size: 0.875rem;
@@ -222,15 +222,15 @@ a.white:hover {
 }
 
 .btn-price:hover{
-	border: 1px solid #fff;
+	border: 1px solid #000;
 	background: transparent;
-	color: #fff;
+	color: #000;
 	text-decoration: none;
 }
 
 .btn-swiper-slide {
 	display: inline-block;
-	padding: 1.375rem 2.25rem 1.375rem 2.25rem;
+	padding: 1.6rem 3.6rem;
 	border-radius: 32px;
 	border: 0.1rem solid #fff;
 	background: transparent;
@@ -239,13 +239,13 @@ a.white:hover {
 	font-size: 0.875rem;
 	line-height: 0;
 	text-decoration: none;
-	transition: background 650ms ease-in;
+	transition: background 650ms ease-in-out;
 }
 
 .btn-swiper-slide:hover {
 	border: none;
 	background:#fff;
-	color: rgb(91, 0, 91);
+	color: rgb(55, 167, 204);
 	text-decoration: none;
 }
 
@@ -253,31 +253,30 @@ a.white:hover {
 	display: inline-block;
 	padding: 1.375rem 2.25rem 1.375rem 2.25rem;
 	border-radius: 32px;
-	border: 0.1rem solid rgb(91, 0, 91);
+	border: 0.1rem solid rgb(243, 112, 134);
 	background: transparent;
-	color: purple;
+	color: rgb(243, 112, 134);
 	font-weight: 600;
 	font-size: 0.875rem;
 	line-height: 0;
 	text-decoration: none;
 	transition: background 650ms ease-in;
-	box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.800);
 }
 
 .btn-outline-reg:hover {
 	border: none;
-	background: rgb(91, 0, 91);
+	background: rgb(243, 112, 134);
 	color: #fff;
 	text-decoration: none;
 }
 
 .btn-outline-lg {
 	display: inline-block;
-	padding: 1.625rem 2.625rem 1.625rem 2.625rem;
-	border: 1px solid rgb(91, 0, 91);
-	border-radius: 32px;
+	padding: 1.6rem 3.6rem;
+	border: 1px solid lightblue;
+	border-radius: 2rem;
 	background-color: transparent;
-	color: rgb(91, 0, 91);
+	color: lightblue;
 	font-weight: 600;
 	font-size: 0.875rem;
 	line-height: 0;
@@ -286,7 +285,7 @@ a.white:hover {
 }
 
 .btn-outline-lg:hover {
-	background: linear-gradient(45deg, rgb(135, 1, 1), rgb(1, 1, 135));
+	background: linear-gradient(45deg, rgb(55, 167, 204), rgb(243, 112, 134));
 	color: #ffffff;
 	text-decoration: none;
 }
@@ -307,7 +306,7 @@ a.white:hover {
 
 .btn-outline-sm:hover {
 	border: 1px solid purple;
-	background: linear-gradient(45deg, rgb(135, 1, 1), rgb(1, 1, 135));
+	background: linear-gradient(45deg, rgb(55, 167, 204), rgb(243, 112, 134));
 	color: #ffffff;
 	text-decoration: none;
 }
@@ -419,8 +418,8 @@ input[type='checkbox'] {
 	height: 3.25rem;
 	border: none;
 	border-radius: 0.3rem;
-	background: rgb(91, 0, 91);
-	color: #fff;
+	background: lightblue;
+	color: #000;
 	font-weight: 600;
 	font-size: 0.875rem;
 	line-height: 0;
@@ -530,7 +529,7 @@ input[type='checkbox'] {
 /**********************/
 
 nav.fixed-top{
-	background: #fff;
+	background: #f4f4f4;
 }
 .navbar {
 	color: #000;
@@ -593,7 +592,7 @@ nav.fixed-top{
 
 .navbar .nav-item .nav-link:hover,
 .navbar .nav-item .nav-link.active {
-	color: purple;
+	color: rgb(243, 112, 134);
 }
 
 .navbar .nav-item .nav-link:hover{
@@ -609,7 +608,7 @@ nav.fixed-top{
 
 .navbar .fa-stack-2x {
 	transition: all 0.2s ease;
-	color: rgb(91, 0, 91);
+	color: rgb(243, 112, 134);
 }
 
 .navbar .fa-stack-1x {
@@ -618,7 +617,7 @@ nav.fixed-top{
 }
 
 .navbar .fa-stack:hover .fa-stack-2x {
-	color: rgb(194, 63, 194);
+	color: pink;
 }
 
 .navbar .fa-stack:hover .fa-stack-1x {
@@ -670,9 +669,9 @@ nav.fixed-top{
 }
 
 .header .btn-outline-lg {
-	background: rgb(91, 0, 91);
+	background: lightblue;
 	border: none;
-	color: #ffffff;
+	color: #000;
 	transition: background 650ms ease;
 }
 
@@ -713,7 +712,7 @@ nav.fixed-top{
 .basic-1 {
 	padding-top: 8rem;
 	padding-bottom: 7rem;
-	background: linear-gradient(45deg, rgb(135, 1, 1), rgb(1, 1, 135));
+	background: linear-gradient(45deg, rgb(55, 167, 204), rgb(243, 112, 134));
 	text-align: center;
 }
 
@@ -814,7 +813,7 @@ nav.fixed-top{
 .slider-1 {
 	padding-top: 8rem;
 	padding-bottom: 8rem;
-	background: linear-gradient(45deg, rgb(135, 1, 1), rgb(1, 1, 135));
+	background: linear-gradient(45deg, rgb(55, 167, 204), rgb(243, 112, 134));
 }
 
 .slider-1 .slider-container {
@@ -909,7 +908,7 @@ nav.fixed-top{
 	margin-right: 0.875rem;
 	border: none;
 	border-radius: 50%;
-	background: rgb(91, 0, 91);;
+	background:  rgb(243, 112, 134);
 	color: #fff;
 	font-weight: 700;
 	font-size: 1rem;
@@ -940,7 +939,7 @@ nav.fixed-top{
 }
 
 .accordion span[aria-expanded="true"] .accordion-title {
-	color: rgb(91, 0, 91);
+	color: rgb(55, 167, 204);
 }
 
 .accordion h4:hover .circle-numbering {
@@ -948,7 +947,7 @@ nav.fixed-top{
 	background: #fff;
 }
 .accordion h4:hover .accordion-title {
-	color: rgb(91, 0, 91);
+	color: rgb(55, 167, 204);
 }
 
 .accordion .accordion-body {
@@ -983,19 +982,18 @@ nav.fixed-top{
 	padding: 0.625rem 1.75rem;
 	border: 0.1rem solid #000;
 	border-radius: 10px;
-	background: #fff;
+	background: transparent;
 	color: #000;
 	font-weight: 700;
 	font-size: 0.75rem;
 	line-height: 1.375rem;
 	text-decoration: none;
 	transition:background 650ms ease-in;
-	box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.800);
 }
 
 .tabs .nav-link:hover,
 .tabs .nav-link.active {
-	background: rgb(91, 0, 91);
+	background: linear-gradient(45deg, rgb(55, 167, 204), rgb(243, 112, 134));
 	color: #fff;
 	border: 0.1rem solid #000;
 }
@@ -1013,14 +1011,14 @@ nav.fixed-top{
 	height: 22px;
 	margin-bottom: 1.125rem;
 	border-radius: 1rem;
-	background: gray;
+	background: lightgray;
 }
 
 .tabs #tab-1 .progress-bar {
 	display: block;
 	padding-left: 1.5rem;
 	border-radius: 1rem;
-	background: linear-gradient(45deg, rgb(135, 1, 1), rgb(1, 1, 135));
+	background: linear-gradient(45deg, rgb(55, 167, 204), rgb(243, 112, 134));
 }
 
 .tabs #tab-1 .progress-bar.first {
@@ -1046,7 +1044,7 @@ nav.fixed-top{
 }
 
 .tabs #tab-2 .list-unstyled .media-bullet {
-	color: rgb(91, 0, 91);
+	color: rgb(243, 112, 134);
 	font-weight: 700;
 	font-size: 2rem;
 	line-height: 1.5rem;
@@ -1057,7 +1055,7 @@ nav.fixed-top{
 }
 
 .tabs #tab-3 .list-unstyled .fas {
-	color: rgb(91, 0, 91);
+	color: rgb(243, 112, 134);
 	font-size: 0.375rem;
 	line-height: 1.625rem;
 }
@@ -1075,6 +1073,19 @@ nav.fixed-top{
 	margin-bottom: 1rem;
 }
 
+.tabs #tab-3 .btn-solid-reg{
+	background: rgb(55, 167, 204);
+	color: #fff;
+	border: none;
+}
+
+.tabs #tab-3 .btn-solid-reg:hover{
+	background: transparent;
+	color: rgb(55, 167, 204);
+	border: 1px solid rgb(55, 167, 204);
+}
+
+
 .tabs .area-2 {
 	height: 432px;
 	background: linear-gradient(to bottom right, rgba(0, 0, 0, 0.400), rgba(0, 0, 0, 0.400)), url('../images/details-2-background.jpg') center no-repeat;
@@ -1086,7 +1097,7 @@ nav.fixed-top{
 /*     Pricing     */
 /*******************/
 .cards-1 {
-	background: linear-gradient(45deg, rgb(135, 1, 1), rgb(1, 1, 135));
+	background: linear-gradient(45deg, rgb(55, 167, 204), rgb(243, 112, 134));
 	padding-top: 8rem;
 	padding-bottom: 3.25rem;
 }
@@ -1114,12 +1125,13 @@ nav.fixed-top{
 }
 
 .cards-1 .card {
-	background: #000;
-	color: #fff;
+	background: lightgray;
+	color: #000;
 	margin-bottom: 5rem;
 	padding: 2.5rem 1.5rem 3.25rem 1.5rem;
 	border: 0.1rem solid #000;
 	border-radius: 1rem;
+	box-shadow: 0px 5px 30px rgba(0, 0, 0, 0.800);
 }
 
 .cards-1 .card-body {
@@ -1134,7 +1146,7 @@ nav.fixed-top{
 	height: 4.5rem;
 	border: 0.1rem solid #000;
 	border-radius: 50%;
-	background: linear-gradient(45deg, rgb(135, 1, 1), rgb(1, 1, 135));
+	background: linear-gradient(45deg, rgb(55, 167, 204), rgb(243, 112, 134));
 	color: #fff;
 	font-weight: 700;
 	font-size: 1.25rem;
@@ -1152,7 +1164,7 @@ nav.fixed-top{
 }
 
 .cards-1 .card .list-unstyled .fas {
-	color: purple;
+	color: rgb(243, 112, 134);
 	font-size: 0.375rem;
 	line-height: 1.625rem;
 }
@@ -1183,16 +1195,16 @@ nav.fixed-top{
 }
 
 .basic-3 .btn-outline-lg {
-	background: rgb(91, 0, 91);
+	background: rgb(243, 112, 134);
 	border: none;
 	color: #fff;
 	transition: background 650ms ease-in;
 }
 
 .basic-3 .btn-outline-lg:hover {
-	border: 0.1rem solid #000;
+	border: 0.1rem solid rgb(243, 112, 134);
 	background: transparent;
-	color: #000;
+	color: rgb(243, 112, 134);
 }
 
 
@@ -1230,12 +1242,12 @@ nav.fixed-top{
 }
 
 .filter .button-group a:hover {
-	background: rgb(91, 0, 91);
+	background: rgb(55, 167, 204);
 	color: #ffffff;
 }
 
 .filter .button-group a.button.is-checked {
-	background: rgb(91, 0, 91);
+	background: rgb(55, 167, 204);
 	color: #ffffff;
 }
 
@@ -1300,7 +1312,7 @@ nav.fixed-top{
 	max-width: 1150px;
 	margin: 2.5rem auto;
 	padding: 3rem 1rem;
-	background: #f4f4f4;
+	background: linear-gradient(45deg, rgb(55, 167, 204), rgb(243, 112, 134));
 	color:#000;
 	border-radius: 1rem;
 	text-align: left;
@@ -1326,14 +1338,14 @@ nav.fixed-top{
 	margin-top: 0.125rem;
 	margin-bottom: 1rem;
 	margin-left: 0;
-	background: linear-gradient(45deg, rgb(135, 1, 1), rgb(1, 1, 135));
+	background: linear-gradient(45deg, rgb(55, 167, 204), rgb(243, 112, 134));
 }
 
 .lightbox-basic .text-container {
 	margin-top: 1.5rem;
 	margin-bottom: 2.25rem;
 	padding: 1.5rem;
-	background: lightgray;
+	background: #f4f4f4;
 	color: #000;
 	border-radius: 1rem;
 }
@@ -1343,12 +1355,14 @@ nav.fixed-top{
 	position: relative;
 	width: auto;
 	height: auto;
+	background: rgb(243, 112, 134);
 	color: #fff;
 	opacity: 1;
 }
 
 .lightbox-basic .btn-solid-reg.mfp-close:hover {
-	color: purple;
+	background: transparent;
+	color: #fff;
 }
 /* end of action Button */
 
@@ -1360,15 +1374,16 @@ nav.fixed-top{
 	height: auto;
 	margin-left: 0.375rem;
 	padding: 1.375rem 2.25rem 1.375rem 2.25rem;
-	border: 1px solid purple;
+	border: 1px solid #fff;
 	background: transparent;
-	color: purple;
+	color: #fff;
 	opacity: 1;
 	transition: background 650ms ease-in;
 }
 
 .lightbox-basic .btn-outline-reg.mfp-close.as-button:hover {
-	background: rgb(91, 0, 91);
+	background: rgb(243, 112, 134);
+	border: none;
 	color: #ffffff;
 }
 /* end of back button */
@@ -1403,7 +1418,7 @@ nav.fixed-top{
 
 .slider-2 .hr-heading {
 	margin-bottom: 3.5rem;
-	background: linear-gradient(45deg, rgb(135, 1, 1), rgb(1, 1, 135));
+	background: linear-gradient(45deg, rgb(55, 167, 204), rgb(243, 112, 134));
 }
 
 .slider-2 .slider-container {
@@ -1475,7 +1490,7 @@ nav.fixed-top{
 /*     Team     */
 /****************/
 .basic-5 {
-	background: linear-gradient(45deg, rgb(135, 1, 1), rgb(1, 1, 135));
+	background: linear-gradient(45deg, rgb(55, 167, 204), rgb(243, 112, 134));
 	color: #fff;
 	padding-top: 8rem;
 	padding-bottom: 4rem;
@@ -1491,14 +1506,13 @@ nav.fixed-top{
 }
 
 .basic-5 .card {
-	background: #000;
-	color: #fff;
+	background: #f4f4f4;
+	color: #000;
 	max-width: 300px;
 	margin-right: auto;
 	margin-bottom: 4rem;
 	margin-left: auto;
 	padding: 1rem;
-	border: 0.1rem solid #000;
 	border-radius: 2rem;
 	box-shadow: 0px 10px 40px 0px rgba(0, 0, 0, 0.800);
 }
@@ -1550,7 +1564,7 @@ nav.fixed-top{
 }
 
 .basic-5 .fa-circle {
-	color: purple;
+	color: rgb(243, 112, 134);
 	transition: all 0.2s ease;
 }
 
@@ -1563,7 +1577,7 @@ nav.fixed-top{
 }
 
 .basic-5 .fa-stack:hover .fab {
-	color: purple;
+	color: rgb(243, 112, 134);
 }
 
 
@@ -1597,7 +1611,7 @@ nav.fixed-top{
 }
 
 .form-1 .list-unstyled .fas {
-	color: rgb(91, 0, 91);
+	color: rgb(243, 112, 134);
 }
 
 .form-1 .form-control-input{
@@ -1669,7 +1683,7 @@ nav.fixed-top{
 }
 
 .footer .footer-col.third .fa-stack:hover .fa-stack-2x {
-    color: purple;
+    color: rgb(243, 112, 134);
 }
 
 .footer .footer-col.third .fa-stack:hover .fa-stack-1x {
@@ -1705,7 +1719,7 @@ a.back-to-top {
 	width: 42px;
 	height: 42px;
 	border-radius: 30px;
-	background: purple url("../images/up-arrow.png") no-repeat center 47%;
+	background: rgb(243, 112, 134) url("../images/up-arrow.png") no-repeat center 47%;
 	background-size: 18px 18px;
 	text-indent: -9999px;
 	transition: background 650ms ease-in;
@@ -1713,7 +1727,7 @@ a.back-to-top {
 }
 
 a:hover.back-to-top {
-	background: purple url("../images/up-arrow.png") no-repeat center 47%;
+	background: rgb(243, 112, 134) url("../images/up-arrow.png") no-repeat center 47%;
 }
 
 
