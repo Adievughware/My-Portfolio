@@ -35,7 +35,6 @@ Colors:
 /**************************/
 /*     General Styles     */
 /**************************/
-
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto+Slab:wght@200&family=Roboto:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Poppins&family=Roboto+Slab:wght@200&family=Roboto:wght@300;400&display=swap');
@@ -400,16 +399,6 @@ select {
 .form-control-select:hover,
 .form-control-textarea:hover {
 	border: 1px solid #000;
-}
-
-.checkbox {
-	font-size: 0.75rem;
-	line-height: 1.25rem;
-}
-
-input[type='checkbox'] {
-	vertical-align: -10%;
-	margin-right: 0.5rem;
 }
 
 .form-control-submit-button {
@@ -879,7 +868,7 @@ nav.fixed-top{
 
 .accordion .area-1 {
 	height: 432px;
-	background: linear-gradient(to bottom right, rgba(0, 0, 0, 0.400), rgba(0, 0, 0, 0.400)), url('../images/details-1-background.jpg') no-repeat;
+	background: linear-gradient(to bottom right, rgba(0, 0, 0, 0.400), rgba(0, 0, 0, 0.400)), url('../images/details-1-background.jpg') center center no-repeat;
 	background-size: cover;
 }
 
@@ -995,7 +984,6 @@ nav.fixed-top{
 .tabs .nav-link.active {
 	background: linear-gradient(45deg, rgb(55, 167, 204), rgb(243, 112, 134));
 	color: #fff;
-	border: 0.1rem solid #000;
 }
 
 .tabs #tab-1 .progress-container {
@@ -1088,7 +1076,7 @@ nav.fixed-top{
 
 .tabs .area-2 {
 	height: 432px;
-	background: linear-gradient(to bottom right, rgba(0, 0, 0, 0.400), rgba(0, 0, 0, 0.400)), url('../images/details-2-background.jpg') center no-repeat;
+	background: linear-gradient(to bottom right, rgba(0, 0, 0, 0.400), rgba(0, 0, 0, 0.400)), url('../images/details-2-background.jpg') center center no-repeat;
 	background-size: cover;
 }
 
@@ -1625,6 +1613,10 @@ nav.fixed-top{
 
 .form-1 .center-form{
 	margin: auto;
+}
+
+.form-1 #contactForm{
+	width: 25rem;
 }
 
 
