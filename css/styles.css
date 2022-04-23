@@ -990,7 +990,7 @@ nav.fixed-top{
 	margin-top: 1.5rem;
 }
 
-.tabs #tab-1 .progress-container .title {
+.tabs #tab-1 .progress-container .title { 
 	font-weight: 700;
 	margin-bottom: 0.25rem;
 }
@@ -1613,10 +1613,6 @@ nav.fixed-top{
 
 .form-1 .center-form{
 	margin: auto;
-}
-
-.form-1 #contactForm{
-	width: 25rem;
 }
 
 
