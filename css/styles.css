@@ -1188,8 +1188,9 @@ nav.fixed-top{
 	text-align: center;
 }
 
-.basic-3 h5 {
+.basic-3 p {
 	color: #000;
+	font-size: 1.2rem;
 	margin-bottom: 1.75rem;
 }
 
