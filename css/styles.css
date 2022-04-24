@@ -401,6 +401,17 @@ select {
 	border: 1px solid #000;
 }
 
+.checkbox {
+	font-size: 0.75rem;
+	line-height: 1.25rem;
+}
+
+input[type='checkbox'] {
+	vertical-align: -10%;
+	margin-right: 0.5rem;
+}
+
+
 .form-control-submit-button {
 	display: inline-block;
 	width: 100%;
@@ -525,7 +536,7 @@ nav.fixed-top{
 	font-weight: bold;
 	font-size: 0.5rem;
 	line-height: 0.5rem;
-	box-shadow: 0 6px 12px 0 rgba(0, 0, 0, 1.50);
+	box-shadow: 0 6px 40px 0 rgba(0, 0, 0, 1.50);
 }
 
 .navbar .navbar-brand {
@@ -542,9 +553,9 @@ nav.fixed-top{
 .top-clicks {
 	position: fixed;
 	top: 4.5rem; /* adjusts the height between the top of the page and the offcanvas menu */
-	left: 95%;
-	width: 60%;
-	height: 60%;
+	left: 100%;
+	width: 100%;
+	height: 100%;
 	padding-right: 0.5rem;
 	padding-left: 0.5rem;
 	line-height: 2;
@@ -552,7 +563,7 @@ nav.fixed-top{
 	align-items: center;
 	overflow-y: auto;
 	visibility: hidden;
-	background: #fff;
+	background: #f4f4f4;
 	border-radius: 1rem;
 	transition: visibility .3s ease-in-out, -webkit-transform .3s ease-in-out;
 	transition: transform .3s ease-in-out, visibility .3s ease-in-out;
@@ -563,6 +574,12 @@ nav.fixed-top{
 	visibility: visible;
 	-webkit-transform: translateX(-100%);
 	transform: translateX(-100%);
+}
+
+.top-clicks.close {
+	visibility: hidden;
+	-webkit-transform: translateX(100%);
+	transform: translateX(100%);
 }
 
 .navbar .navbar-nav {
@@ -868,7 +885,7 @@ nav.fixed-top{
 
 .accordion .area-1 {
 	height: 432px;
-	background: linear-gradient(to bottom right, rgba(0, 0, 0, 0.400), rgba(0, 0, 0, 0.400)), url('../images/details-1-background.jpg') center center no-repeat;
+	background: linear-gradient(to bottom right, rgba(0, 0, 0, 0.400), rgba(0, 0, 0, 0.400)), url('../images/details-1-background.png') center center no-repeat;
 	background-size: cover;
 }
 
@@ -1076,7 +1093,7 @@ nav.fixed-top{
 
 .tabs .area-2 {
 	height: 432px;
-	background: linear-gradient(to bottom right, rgba(0, 0, 0, 0.400), rgba(0, 0, 0, 0.400)), url('../images/details-2-background.jpg') center center no-repeat;
+	background: linear-gradient(to bottom right, rgba(0, 0, 0, 0.400), rgba(0, 0, 0, 0.400)), url('../images/details-2-background.png') center center no-repeat;
 	background-size: cover;
 }
 
@@ -1701,8 +1718,8 @@ nav.fixed-top{
 a.back-to-top {
 	position: fixed;
 	z-index: 999;
-	right: 12px;
-	bottom: 12px;
+	right: 20px;
+	bottom: 30px;
 	display: none;
 	width: 42px;
 	height: 42px;
