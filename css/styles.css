@@ -535,8 +535,8 @@ nav.fixed-top{
 	color: #000;
 	font-weight: bold;
 	font-size: 0.5rem;
-	line-height: 0.5rem;
-	box-shadow: 0 6px 40px 0 rgba(0, 0, 0, 1.50);
+	line-height: 1rem;
+	box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.800);
 }
 
 .navbar .navbar-brand {
@@ -553,9 +553,9 @@ nav.fixed-top{
 .top-clicks {
 	position: fixed;
 	top: 4.5rem; /* adjusts the height between the top of the page and the offcanvas menu */
-	left: 100%;
-	width: 100%;
-	height: 100%;
+	left: 95%;
+	width: 70%;
+	height: 60%;
 	padding-right: 0.5rem;
 	padding-left: 0.5rem;
 	line-height: 2;
@@ -574,12 +574,6 @@ nav.fixed-top{
 	visibility: visible;
 	-webkit-transform: translateX(-100%);
 	transform: translateX(-100%);
-}
-
-.top-clicks.close {
-	visibility: hidden;
-	-webkit-transform: translateX(100%);
-	transform: translateX(100%);
 }
 
 .navbar .navbar-nav {
