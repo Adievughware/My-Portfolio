@@ -646,6 +646,10 @@ nav.fixed-top{
 	margin-bottom: 4rem;
 }
 
+.header .text-container h1{
+	height: 250px;
+}
+
 .header h1 {
 	color: #fff;
 	font-family: 'Merriweather', serif;
@@ -679,30 +683,6 @@ nav.fixed-top{
 	background: transparent;
 	color: #fff;
 	border: 0.1rem solid #fff;
-}
-
-.header .form-container {
-	background: transparent;
-	padding: 3rem 1rem 2rem 1rem;
-	border: 0.2rem solid #fff;
-	border-radius: 1rem;
-}
-
-.header .form-container .form-control-input{
-	border-radius: 1rem;
-}
-
-.header .form-control-select{
-	border-radius: 1rem;
-}
-
-.header .form-group{
-	color: #fff;
-}
-
-.header .form-group .form-control-submit-button a{
-	text-decoration: none;
-	font-size: 1.1rem;
 }
 
 
@@ -1764,6 +1744,10 @@ a:hover.back-to-top {
 
 /* Max-width 992px */
 @media (max-width: 992px) {
+	.header .h1-large{
+		font-size: 2.1rem;
+	}
+
 	/* Navigation */
 	.top-clicks{
 		box-shadow: 30px 0px 40px rgba(0, 0, 0, 0.800), -30px 0px 40px rgba(0, 0, 0, 0.800);
@@ -1782,15 +1766,7 @@ a:hover.back-to-top {
 @media (min-width: 768px) {
 
 	/* Header */
-	.header {
-		padding-top: 9rem;
-		padding-bottom: 8rem;
-	}
 
-	.header .form-container {
-		padding-right: 2rem;
-		padding-left: 2rem;
-	}
 	/* end of header */
 
 
@@ -1946,13 +1922,13 @@ a:hover.back-to-top {
 
 	/* Header */
 	.header {
-		padding-top: 13rem;
+		padding-top: 10rem;
 		padding-bottom: 10rem;
 		text-align: left;
 	}
 
 	.header .text-container {
-		margin-top: 5rem;
+		margin-top: 2rem;
 		margin-bottom: 0;
 	}
 	/* end of header */
@@ -2173,13 +2149,6 @@ a:hover.back-to-top {
 	/* end of team */
 
 
-	/* Contact */
-	.form-1 .map-responsive {
-		margin-bottom: 0;
-	}
-	/* end of contact */
-
-
 	/* Footer */
 	.footer .footer-col {
 		margin-bottom: 2rem;
@@ -2230,17 +2199,13 @@ a:hover.back-to-top {
 
 	/* Header */
 	.header {
-		padding-top: 14rem;
+		padding-top: 10rem;
 		padding-bottom: 11rem;
 	}
 
 	.header .text-container {
-		margin-top: 5.75rem;
-		margin-right: 3rem;
-	}
-
-	.header .form-container {
-		margin-left: 3rem;
+		margin-top: 2.75rem;
+		margin-right: 4rem;
 	}
 	/* end of header */
 
@@ -2366,11 +2331,6 @@ a:hover.back-to-top {
 
 
 	/* Contact */
-	.form-1 .map-responsive {
-		margin-right: 1.5rem;
-		padding-bottom: 72%;
-	}
-
 	.form-1 form {
 		margin-left: 1.5rem;
 	}
