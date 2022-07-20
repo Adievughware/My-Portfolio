@@ -1493,8 +1493,8 @@ nav.fixed-top{
 	margin-bottom: 4rem;
 	margin-left: auto;
 	padding: 1rem;
-	border-radius: 2rem;
-	box-shadow: 0px 10px 40px 0px rgba(0, 0, 0, 0.800);
+	border-radius: 1rem;
+	box-shadow: 0px 10px 40px 0px rgba(0, 0, 0, 0.300);
 }
 
 /* Hover Animation */
@@ -1502,6 +1502,7 @@ nav.fixed-top{
 	overflow: hidden;
 	margin-bottom: 1.5rem;
 	border-radius: 50%;
+	box-shadow: 0px 10px 40px 0px rgba(0, 0, 0, 0.150);
 }
 
 .basic-5 .card-image img {
@@ -1766,7 +1767,10 @@ a:hover.back-to-top {
 @media (min-width: 768px) {
 
 	/* Header */
-
+	.header {
+		padding-top: 9rem;
+		padding-bottom: 8rem;
+	} 
 	/* end of header */
 
 
@@ -1928,7 +1932,7 @@ a:hover.back-to-top {
 	}
 
 	.header .text-container {
-		margin-top: 2rem;
+		margin-top: 5rem;
 		margin-bottom: 0;
 	}
 	/* end of header */
