@@ -1745,10 +1745,6 @@ a:hover.back-to-top {
 
 /* Max-width 992px */
 @media (max-width: 992px) {
-	.header .h1-large{
-		font-size: 2.1rem;
-	}
-
 	/* Navigation */
 	.top-clicks{
 		box-shadow: 30px 0px 40px rgba(0, 0, 0, 0.800), -30px 0px 40px rgba(0, 0, 0, 0.800);
@@ -1926,7 +1922,7 @@ a:hover.back-to-top {
 
 	/* Header */
 	.header {
-		padding-top: 10rem;
+		padding-top: 13rem;
 		padding-bottom: 10rem;
 		text-align: left;
 	}
